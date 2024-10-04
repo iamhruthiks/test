@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../assets/background.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-nav {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.navbar .nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    color: white !important;
+    border-bottom-color: white;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.linear-gradient {
+    background: linear-gradient(80deg, #AE15DD, #3434F9, #3434F9);
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.hero-section-1 {
+    margin-top: 100px;
+    max-width: 80%;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    background: linear-gradient(to right, #FF930F, #FFF95B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.hero-section-2 {
+    margin-top: 10px;
+    max-width: 60%;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+.hero-section-button {
+    display: inline-block;
+    margin-top: 20px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
